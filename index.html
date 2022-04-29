@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- cdnjs linki -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./img/music-logo-png-74180.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="player-container">
+        <!-- song section -->
+        <div class="img-container">
+            <img src="https://source.unsplash.com/random" alt="">
+        </div>
+        <h2 id="title" class="music-name"> Another love</h2>
+        <h3 id="artist" class="artist-name">Tom Odell</h3>
+        
+        <div class="line">
+            <span class="dot"> •</span>
+        </div>
+
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress">
+
+            </div>
+            <div class="duration-wrapper">
+                <span id="current-time" class="current-time">2:14</span>
+                <span id="duration" class="duration">4:44</span>
+            </div>
+        </div>
+        <!-- player controls -->
+        <div class="player-controls">
+            <i class="fa-solid fa-backward-fast" id="prev"></i>
+            <i class="fa-solid fa-play" id="play"></i>
+            <i class="fa-solid fa-forward-fast" id="next"></i>
+        </div>
+    </div>
+</body>
+</html>
